@@ -11,5 +11,5 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>add</artifactId>
+    <artifactId>sub</artifactId>
 </project>
