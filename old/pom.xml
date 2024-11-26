@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.vsu.cs.kostryukov</groupId>
-    <artifactId>JavaCourse</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>calc</artifactId>
+    <version>0</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
