@@ -1,0 +1,13 @@
+services:
+  add:
+    build: services/add
+    image: ${IMAGE_PREFIX}-add
+  sub:
+    build: services/sub
+    image: ${IMAGE_PREFIX}-sub
+  div:
+    build: services/div
+    image: ${IMAGE_PREFIX}-div
+  mult:
+    build: services/mult
+    image: ${IMAGE_PREFIX}-mult
