@@ -30,7 +30,7 @@ public class MainController {
     }
 
     @PostMapping(APP_BASEPATH + "/mult")
-    public ServiceResponse postMod(
+    public ServiceResponse postMult(
             @Valid @RequestBody CalcRequest calcRequest, @RequestHeader HttpHeaders headers) {
         final int op1 = calcRequest.getOperands().get(0);
         final int op2 = calcRequest.getOperands().get(1);
