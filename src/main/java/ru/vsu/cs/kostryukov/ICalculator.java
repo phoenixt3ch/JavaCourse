@@ -12,7 +12,7 @@ public interface ICalculator {
     static double divide(double a, double b) {
         if (b == 0) {
             ArithmeticException e = new ArithmeticException("division by zero");
-            logger.info(e.getMessage());
+            logger.error(e.getMessage());
             throw e;
         }
         return a / b;

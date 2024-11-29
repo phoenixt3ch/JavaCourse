@@ -1,0 +1,4 @@
+services:
+  microcalc:
+    build: ./
+    image: kostryukov/microcalc
